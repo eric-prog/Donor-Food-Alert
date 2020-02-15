@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400025107644",
+    "firebase_url": "https://foodalertandroidapp.firebaseio.com",
+    "project_id": "foodalertandroidapp",
+    "storage_bucket": "foodalertandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400025107644:android:87da03370270a02ae3e4b9",
+        "android_client_info": {
+          "package_name": "com.example.donoralert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400025107644-sgjt7hc9ue798hudntr2h2507kpn9hci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfGvqV5UpxDMNEOunP6byDRHSCeBlt6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400025107644-sgjt7hc9ue798hudntr2h2507kpn9hci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

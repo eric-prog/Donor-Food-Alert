@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLightGrey"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context=".RoleSelection">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:src="@drawable/login_icon"/>
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width ="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password2"
+            app:passwordToggleEnabled="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:background="@drawable/rounded_rect"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorLightGrey"
+
+            android:textStyle="bold"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:background="@drawable/rounded_rect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:textColor="@color/colorLightGrey"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:text="Sign Up" />
+
+    </LinearLayout>
+</ScrollView>
